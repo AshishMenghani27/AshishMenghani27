@@ -43,6 +43,7 @@ Each repository takes a real question, works it end-to-end on real data, and rep
 | **[credit-risk-ml-hpc](https://github.com/AshishMenghani27/credit-risk-ml-hpc)** | Credit-risk classification on **100,000** records — single-node (R) vs distributed (PySpark), with an actionable risk rule | R · PySpark · MLlib | **AUC 0.8748**; debt > $30K + delayed payments → 3.6× default risk |
 | **[djia-financial-visualisation](https://github.com/AshishMenghani27/djia-financial-visualisation)** | Interactive DJIA + FRED macro dashboard — hand-coded front end, zero build tooling | D3.js v7 · Bootstrap · vanilla JS | [Live interactive demo](https://ashishmenghani27.github.io/djia-financial-visualisation/) |
 | **[covid-sentiment-stocks](https://github.com/AshishMenghani27/covid-sentiment-stocks)** | Correlation study of public sentiment vs equity-index movement during COVID-19 | Python · VADER · scipy | Statistical (Pearson) analysis of sentiment–market linkage |
+| **[crypto-twitter-sentiment-2021](https://github.com/AshishMenghani27/crypto-twitter-sentiment-2021)** | NLP pipeline over **50,293** Bitcoin and Ethereum tweets (2021) — NLTK cleaning and lemmatisation, VADER scoring, Pearson correlation with BTC/ETH returns at daily, weekly and monthly scales | Python · NLTK · VADER · pandas · SciPy | No significant same-period link; weak negative correlation only after smoothing or lagging, clearest for Ethereum (7-day **r = −0.15**) |
 
 ---
 
